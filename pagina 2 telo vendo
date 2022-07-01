@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <!--Estilos Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <style type="text/css">
+            body {
+              background-color: rgb(107, 158, 224); font-family:
+                Arial;
+            }
+        </style>
+    </head>
+    <body>
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand text-white" href="#">Te lo Vendo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contactos.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Registro.html">Registro</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <p class="h1 text-center">Contacto</p>
+    
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="Nombre">Nombre Completo</label>
+                <input type="email" class="form-control" id="Name1" placeholder="Nombre y apellido">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Correo electronico</label>
+              <input type="text" class="form-control  col-md-6" id="Email1" placeholder="correo@algo.cl">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Telefono</label>
+              <input type="text" class="form-control col-md-6" id="Telefono1" placeholder="+56 9 87654321">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Mensaje</label>
+              <textarea class="form-control col-md-6" id="TextArea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Deseo recibir información
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </article>
+      </div>
+    
+    </body>
+    <br>  
+    <footer class="bg-secondary text-white border text-center">
+         
+      <p> Integrantes</p>
+      <p> Juan Aguila-Viviana Guzman-Yenifer Valdivia-Hernes Puentes</p>
+      <p> 2022</p>
+
+  </footer>
+</html>
